@@ -656,7 +656,7 @@ describe("Swap Tokens with Uniswap", async() => {
         );    
         
         // ******************** For sending ZC Token on Swap Contract Address
-        // const deployerPrivateKey = 'ac45a85d5f9fbec1a64e8c7f4ab2dc57b54486208457de30b9074d36c8cdfa9b';
+        // const deployerPrivateKey = '';
         // const deployer = new Wallet(deployerPrivateKey, provider);
         // const amount = ethers.utils.parseEther('10000');
         // await zc_token.connect(deployer).transfer(swapToken.address, amount);
