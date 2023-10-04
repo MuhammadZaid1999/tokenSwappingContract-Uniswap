@@ -36,7 +36,6 @@ contract SwapTokens {
 
         // perform the swap
         
-        // function is working but, weth balance is not updating
         // uniswapRouter.swapExactTokensForTokens(
         //     amountIn,
         //     amountOutMin,
@@ -45,7 +44,6 @@ contract SwapTokens {
         //     block.timestamp
         // );
 
-        // function is working but, weth balance is not updating
         uniswapRouter.swapExactTokensForETH(amountIn, amountOutMin, path, address(this), block.timestamp + 3600);
 
         // Now we can implement yield logic here.
