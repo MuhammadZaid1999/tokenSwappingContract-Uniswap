@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://goerli.infura.io/v3/02f0c13978cf4a138e1ea06ef4bb2ebc",
+        url: "https://goerli.infura.io/v3/{key}",
       },
       allowUnlimitedContractSize:true
     },
